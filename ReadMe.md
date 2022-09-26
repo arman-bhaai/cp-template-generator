@@ -13,7 +13,7 @@
 * # *Script Title* ---> **Competitive Programming Template Generator**
 * ## *Script Description* ---> **The script generates your preferred template for competitive programming**
 * ### *Written By* ---> **[#arman_bhaai](https://www.google.com/search?q=%23arman_bhaai&oq=%23arman_bhaai)** *(either click on this hashtag or make a google search to discover more about my works)*
-* ### *My Personal Portfolio* ---> **https://arman-bhaai.github.io** *(some of my great projects are listed on my portfolio, so make sure you went through this)*
+* ### *My Personal Portfolio* ---> **[arman-bhaai.github.io](https://arman-bhaai.github.io)** *(some of my great projects are listed on my portfolio, so make sure you went through this)*
 * ### *Find Me on LinkedIn* ---> **[linkedin.com/in/abubakar-arman](https://www.linkedin.com/in/abubakar-arman)**
 * ### *Find Me on Github* ---> **[github.com/arman-bhaai](https://github.com/arman-bhaai)**
 * ### *Find Me on Facebook* ---> **[fb.me/arman.bhaai](https://www.facebook.com/arman.bhaai)**

@@ -2,14 +2,14 @@
 ||--------------------------------------------------------------------||
 ||                                                                    ||
 || *** In the name of Allah, the Most Gracious, the Most Merciful.*** ||
-||                                                                    ||					
+||                                                                    ||
 ||--------------------------------------------------------------------||
 ||--------------------------------------------------------------------||
 || --> Author     :     Abu Bakar Siddique Arman (#arman_bhaai)       ||
 || --> Email      :     arman.bhaai@gmail.com                         ||
 || --> Portfolio  :     arman-bhaai.github.io                         ||
 || --> LinkedIn   :     linkedin.com/in/abubakar-arman                ||
-|| --> Facebook   :     fb.me/arman.arman-bhaai                       ||
+|| --> Facebook   :     fb.me/arman.bhaai                             ||
 || --> GitHub     :     github.com/arman-bhaai                        ||
 || --> StopStalk  :     stopstalk.com/user/profile/arman_bhaai        ||
 || --> CodeForces :     codeforces.com/profile/arman_bhaai            ||
@@ -27,8 +27,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
 typedef vector<int> vi;
-typedef vector<long long> vll;
+typedef vector<long long> vii;
+typedef vector<vector<ll>> vvi;
 
 #define mpb push_back
 #define endl '\n'
@@ -40,11 +43,29 @@ typedef vector<long long> vll;
 #define couts(i) cout<<i<<" "
 #define coutn(i) cout<<i<<'\n'
 #define sortva(v) sort(v.begin(), v.end())
+#define out(flag) cout << (flag ? "YES" : "NO");
+#define ff first
+#define ss second
 
 void optimize(){
 	// fastIO
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
+}
+
+bool isVowel(char c){
+	return (c=='a' || c=='e' || c=='i' || c=='o' || c=='u');
+}
+
+bool isPrime(ll n){
+	if(n<=1) return false;
+	if(n<=3) return true;
+	if(n%2==0 || n%3==0) return false;
+
+	for(ll i=5; i*i<=n; i+=6){
+		if(n%i==0 || n%(i+2)==0) return false;
+	}
+	return true;
 }
 
 
